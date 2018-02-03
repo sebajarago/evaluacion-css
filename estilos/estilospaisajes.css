@@ -1,0 +1,54 @@
+body{
+	background:#02010a;
+	font-family: dancing script;}
+
+img{
+	box-shadow: 2px 2px #02010a;}
+
+#contenido{
+	width: 900px;
+	margin: auto;}
+
+header{
+	background: #5b7989;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px 10px 0 0 }
+
+header a{
+	color: white;}
+
+#titulo{
+	color: white;
+	text-shadow: 2px 2px #02010a;
+	margin-left: 10px;}
+
+#paisajes{
+	text-decoration: none;}
+
+#galeria{
+	background: #d5c75f;}
+
+#linea1 img{
+	width: 29%;
+	margin: 2%;}
+
+#linea2 img{
+	width: 29%;
+	margin: 2%;}
+
+#i1{
+	-webkit-filter: blur(10px);}
+
+#i2,#i4, #i6{
+	-webkit-filter: grayscale(100%);}
+
+#i3{
+	-webkit-filter: sepia(90%);}
+
+footer{
+	border-radius: 0px 0px 10px 10px;
+	background: #C6d5c5;
+	display: flex;
+	justify-content: space-around;}
