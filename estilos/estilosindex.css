@@ -19,6 +19,14 @@ header{
 header a{
 	color: white;}
 
+header{
+	animation: aparicion 1s}
+
+@keyframes aparicion{
+	0%{margin-top: 150%}
+	60%{margin-top: -5%}
+	100%{margin-top: 0%}}
+
 #titulo{
 	color: white;
 	text-shadow: 2px 2px #02010a;
@@ -72,7 +80,10 @@ figcaption{
 		box-shadow: 2px 2px #82c3a6}}
 
 footer{
-	border-radius: 0px 0px 10px 10px;
 	background: #C6d5c5;
 	display: flex;
-	justify-content: space-around;}
+	flex-direction: row;
+	justify-content: space-around;
+	border-radius: 0px 0px 10px 10px;} 
+
+	
